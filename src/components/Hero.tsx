@@ -30,7 +30,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             
             <p className="text-xl text-blue-100 mb-8 max-w-2xl">
               HAC TECH Construction est spécialisée dans les travaux de construction, 
-              rénovation et gros œuvre. Forts de 15 ans d'expérience, nous réalisons 
+              rénovation et gros œuvre. Forts de 3 ans d'expérience, nous réalisons 
               vos projets avec rigueur et passion.
             </p>
 
@@ -57,7 +57,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 <div className="flex items-center justify-center mb-2">
                   <Award className="w-8 h-8 text-yellow-400" />
                 </div>
-                <div className="text-2xl font-bold text-white">15+</div>
+                <div className="text-2xl font-bold text-white">3+</div>
                 <div className="text-sm text-blue-100">Ans d'expérience</div>
               </div>
               
@@ -65,7 +65,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 <div className="flex items-center justify-center mb-2">
                   <Users className="w-8 h-8 text-yellow-400" />
                 </div>
-                <div className="text-2xl font-bold text-white">200+</div>
+                <div className="text-2xl font-bold text-white">50+</div>
                 <div className="text-sm text-blue-100">Clients satisfaits</div>
               </div>
               
@@ -73,7 +73,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 <div className="flex items-center justify-center mb-2">
                   <Clock className="w-8 h-8 text-yellow-400" />
                 </div>
-                <div className="text-2xl font-bold text-white">98%</div>
+                <div className="text-2xl font-bold text-white">96%</div>
                 <div className="text-sm text-blue-100">Délais respectés</div>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">Rénovation</h4>
-                    <p className="text-sm text-blue-100">Intérieure et extérieure</p>
+                    <p className="text-sm text-blue-100">Peinture Intérieure et extérieure</p>
                   </div>
                 </div>
                 
@@ -110,8 +110,10 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                     <Clock className="w-6 h-6 text-blue-900" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white">Extension & aménagement</h4>
-                    <p className="text-sm text-blue-100">Agrandissement sur mesure</p>
+                    <h4 className="font-semibold text-white">Installation Informatique et Electrique</h4>
+                    <p className="text-sm text-blue-100">Installtion Camera surveillance</p>
+                    <p className="text-sm text-blue-100">Installtion System inteligent</p>
+                    <p className="text-sm text-blue-100">Cablage Electrique</p>
                   </div>
                 </div>
               </div>
