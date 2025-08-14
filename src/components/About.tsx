@@ -46,7 +46,7 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
             À Propos de HAC TECH
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Depuis 2005, HAC TECH Construction accompagne particuliers et professionnels 
+            Depuis 2023, HAC TECH Construction accompagne particuliers et professionnels 
             dans tous leurs projets de construction et de rénovation au Cameroun.
           </p>
         </div>
@@ -59,7 +59,7 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
             </h3>
             <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
               <p>
-                Fondée en 2005 par une équipe d'ingénieurs passionnés, HAC TECH Construction 
+                Fondée en 2023 par une équipe d'ingénieurs passionnés, HAC TECH Construction 
                 s'est rapidement imposée comme une référence dans le secteur du BTP au Cameroun.
               </p>
               <p>
@@ -68,7 +68,7 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
                 les contraintes de délais et de budget.
               </p>
               <p>
-                Aujourd'hui, nous sommes fiers d'avoir accompagné plus de 200 clients 
+                Aujourd'hui, nous sommes fiers d'avoir accompagné plus de 50 clients 
                 dans la réalisation de leurs rêves architecturaux, des villas familiales 
                 aux complexes commerciaux les plus ambitieux.
               </p>
@@ -83,7 +83,7 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
             />
             <div className="absolute -bottom-6 -right-6 bg-yellow-400 p-6 rounded-2xl shadow-lg">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-900">15+</div>
+                <div className="text-3xl font-bold text-blue-900">3+</div>
                 <div className="text-sm text-blue-900 font-medium">Années d'excellence</div>
               </div>
             </div>
