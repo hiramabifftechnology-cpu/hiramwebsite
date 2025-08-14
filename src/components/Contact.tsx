@@ -64,14 +64,14 @@ const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
   const contactInfo = [
     {
       icon: Phone,
-      title: "Téléphone",
-      content: "+237 699 XX XX XX",
-      subContent: "Lun-Ven 8h-18h, Sam 8h-12h"
+      title: "Whatsapp",
+      content: "+44 7982 747852",
+      subContent: "Lun-Ven 9h-17h, Sam 9h-13h"
     },
     {
       icon: Mail,
       title: "Email",
-      content: "contact@hactech.cm",
+      content: "hiramabiff.technomogy@gmail.com",
       subContent: "Réponse sous 24h"
     },
     {
@@ -83,8 +83,8 @@ const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
     {
       icon: Clock,
       title: "Horaires",
-      content: "Lun-Ven: 8h-18h",
-      subContent: "Sam: 8h-12h"
+      content: "Lun-Ven: 9h-17h",
+      subContent: "Sam: 9h-13h"
     }
   ];
 
@@ -314,11 +314,11 @@ const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
                 <div className="space-y-1 text-xs text-gray-500">
                   <div className="flex items-center space-x-1">
                     <Phone className="w-3 h-3" />
-                    <span>+237 699 XX XX XX</span>
+                    <span>+237 693 511 109</span>
                   </div>
                   <div className="flex items-center space-x-1">
                     <Clock className="w-3 h-3" />
-                    <span>Lun-Ven: 8h-18h</span>
+                    <span>Lun-Ven: 9h-17h</span>
                   </div>
                 </div>
               </div>
