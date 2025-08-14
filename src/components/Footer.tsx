@@ -38,7 +38,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Depuis 2005, HAC TECH Construction accompagne particuliers et professionnels 
+              Depuis 2023, HAC TECH Construction accompagne particuliers et professionnels 
               dans tous leurs projets de construction et de rénovation au Cameroun.
             </p>
 
@@ -46,11 +46,11 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-yellow-400 flex-shrink-0" />
-                <span className="text-gray-300">+237 699 XX XX XX</span>
+                <span className="text-gray-300">+237 693 511 109</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-yellow-400 flex-shrink-0" />
-                <span className="text-gray-300">contact@hactech.cm</span>
+                <span className="text-gray-300">hiramabiff.technology@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-yellow-400 flex-shrink-0" />
