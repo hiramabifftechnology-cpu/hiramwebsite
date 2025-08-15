@@ -40,11 +40,11 @@ const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate }) => {
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+237 693 511 109</span>
+                <span>+237 699 XX XX XX</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>hiramabiff.technology@gmail.com</span>
+                <span>contact@hactech.cm</span>
               </div>
             </div>
             <div className="text-xs">
@@ -65,7 +65,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection, onNavigate }) => {
               <h1 className="text-2xl lg:text-3xl font-bold text-blue-900">
                 HAC TECH
               </h1>
-              <p className="text-xs text-gray-600 -mt-1">Construction & Technology</p>
+              <p className="text-xs text-gray-600 -mt-1">Construire l'Afrique de demain aujourd'hui</p>
             </div>
 
             {/* Desktop Navigation */}

@@ -69,7 +69,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ onNavigate }) => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                 
                 {/* Category Badge */}
-                <div className="absolute top-4 left-4 px-3 py-1 bg-yellow-400 text-blue-900 text-sm font-medium rounded-full">
+                <div className="absolute top-4 left-4 px-3 py-1 bg-blue-600 text-white text-sm font-medium rounded-full">
                   {categories.find(cat => cat.id === project.category)?.name.replace('Bâtiments commerciaux', 'Commercial')}
                 </div>
                 

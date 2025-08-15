@@ -24,20 +24,20 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           {/* Left Column */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Construire l'avenir,
-              <span className="block text-yellow-400">brique par brique</span>
+              Construire l'Afrique
+              <span className="block text-blue-400">de demain aujourd'hui</span>
             </h1>
             
             <p className="text-xl text-blue-100 mb-8 max-w-2xl">
-              HAC TECH Construction est spécialisée dans les travaux de construction, 
-              rénovation et gros œuvre. Forts de 3 ans d'expérience, nous réalisons 
-              vos projets avec rigueur et passion.
+              HAC-TECH est une entreprise spécialisée pour trouver des solutions technologiques 
+              et intelligentes, construire, entretenir, maintenir et rénover les plans de développement. 
+              Nous imaginons une plus belle vision au Cameroun et à l'Afrique de manière générale.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <button
                 onClick={() => onNavigate('contact')}
-                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-blue-900 bg-yellow-400 hover:bg-yellow-300 transition-all duration-200 transform hover:scale-105 group"
+                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 group"
               >
                 Demander un devis gratuit
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -55,26 +55,26 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-blue-700">
               <div className="text-center">
                 <div className="flex items-center justify-center mb-2">
-                  <Award className="w-8 h-8 text-yellow-400" />
+                  <Award className="w-8 h-8 text-blue-400" />
                 </div>
-                <div className="text-2xl font-bold text-white">3+</div>
-                <div className="text-sm text-blue-100">Ans d'expérience</div>
-              </div>
-              
-              <div className="text-center">
-                <div className="flex items-center justify-center mb-2">
-                  <Users className="w-8 h-8 text-yellow-400" />
-                </div>
-                <div className="text-2xl font-bold text-white">50+</div>
+                <div className="text-2xl font-bold text-white">100%</div>
                 <div className="text-sm text-blue-100">Clients satisfaits</div>
               </div>
               
               <div className="text-center">
                 <div className="flex items-center justify-center mb-2">
-                  <Clock className="w-8 h-8 text-yellow-400" />
+                  <Users className="w-8 h-8 text-blue-400" />
                 </div>
-                <div className="text-2xl font-bold text-white">96%</div>
-                <div className="text-sm text-blue-100">Délais respectés</div>
+                <div className="text-2xl font-bold text-white">50+</div>
+                <div className="text-sm text-blue-100">Projets réalisés</div>
+              </div>
+              
+              <div className="text-center">
+                <div className="flex items-center justify-center mb-2">
+                  <Clock className="w-8 h-8 text-blue-400" />
+                </div>
+                <div className="text-2xl font-bold text-white">24h</div>
+                <div className="text-sm text-blue-100">Réponse garantie</div>
               </div>
             </div>
           </div>
@@ -86,34 +86,32 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               
               <div className="space-y-4">
                 <div className="flex items-center space-x-4 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                    <Award className="w-6 h-6 text-blue-900" />
+                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                    <Award className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white">Construction neuve</h4>
-                    <p className="text-sm text-blue-100">Maisons individuelles et bâtiments</p>
+                    <h4 className="font-semibold text-white">Solutions technologiques</h4>
+                    <p className="text-sm text-blue-100">Innovation et intelligence artificielle</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center space-x-4 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                    <Users className="w-6 h-6 text-blue-900" />
+                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                    <Users className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white">Rénovation</h4>
-                    <p className="text-sm text-blue-100">Peinture Intérieure et extérieure</p>
+                    <h4 className="font-semibold text-white">Construction & Urbanisme</h4>
+                    <p className="text-sm text-blue-100">Infrastructures et développement durable</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center space-x-4 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                    <Clock className="w-6 h-6 text-blue-900" />
+                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                    <Clock className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white">Installation Informatique et Electrique</h4>
-                    <p className="text-sm text-blue-100">Installtion Camera surveillance</p>
-                    <p className="text-sm text-blue-100">Installtion System inteligent</p>
-                    <p className="text-sm text-blue-100">Cablage Electrique</p>
+                    <h4 className="font-semibold text-white">Maintenance & Rénovation</h4>
+                    <p className="text-sm text-blue-100">Entretien et modernisation</p>
                   </div>
                 </div>
               </div>

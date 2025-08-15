@@ -121,19 +121,19 @@ const Testimonials: React.FC = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16 pt-16 border-t border-blue-800">
           <div className="text-center">
-            <div className="text-4xl font-bold text-yellow-400 mb-2">50+</div>
+            <div className="text-4xl font-bold text-blue-400 mb-2">50+</div>
             <div className="text-blue-100">Projets réalisés</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-yellow-400 mb-2">96%</div>
+            <div className="text-4xl font-bold text-blue-400 mb-2">100%</div>
             <div className="text-blue-100">Clients satisfaits</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-yellow-400 mb-2">3</div>
-            <div className="text-blue-100">Années d'expérience</div>
+            <div className="text-4xl font-bold text-blue-400 mb-2">Innovation</div>
+            <div className="text-blue-100">Technologique</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-yellow-400 mb-2">24h</div>
+            <div className="text-4xl font-bold text-blue-400 mb-2">24h</div>
             <div className="text-blue-100">Délai de réponse</div>
           </div>
         </div>

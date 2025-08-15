@@ -46,8 +46,9 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
             À Propos de HAC TECH
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Depuis 2023, HAC TECH Construction accompagne particuliers et professionnels 
-            dans tous leurs projets de construction et de rénovation au Cameroun.
+            HAC-TECH accompagne particuliers et professionnels dans la réalisation 
+            d'infrastructures publiques et privées ainsi que les habitats des particuliers, 
+            avec une vision d'excellence pour l'Afrique de demain.
           </p>
         </div>
 
@@ -59,18 +60,19 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
             </h3>
             <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
               <p>
-                Fondée en 2023 par une équipe d'ingénieurs passionnés, HAC TECH Construction 
-                s'est rapidement imposée comme une référence dans le secteur du BTP au Cameroun.
+                HAC-TECH est une entreprise spécialisée pour trouver des solutions technologiques 
+                et intelligentes, construire, entretenir, maintenir et rénover les plans de développement. 
+                Nous imaginons une plus belle vision au Cameroun et à l'Afrique de manière générale.
               </p>
               <p>
-                Notre approche unique combine savoir-faire traditionnel et technologies modernes, 
-                nous permettant de réaliser des projets d'exception tout en respectant 
-                les contraintes de délais et de budget.
+                Les infrastructures publiques et privées ainsi que les habitats des particuliers 
+                sont notre spécialité, sans oublier les plans urbanistes que nous appliquons. 
+                La qualité dans nos services et produits étant notre épée de Damoclès.
               </p>
               <p>
-                Aujourd'hui, nous sommes fiers d'avoir accompagné plus de 50 clients 
-                dans la réalisation de leurs rêves architecturaux, des villas familiales 
-                aux complexes commerciaux les plus ambitieux.
+                Le tout dans un strict respect des normes nationales et internationales, 
+                nous nous engageons à livrer des projets d'exception qui contribuent 
+                au développement durable de l'Afrique.
               </p>
             </div>
           </div>
@@ -81,10 +83,10 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
               alt="Équipe HAC TECH"
               className="w-full h-96 object-cover rounded-2xl shadow-xl"
             />
-            <div className="absolute -bottom-6 -right-6 bg-yellow-400 p-6 rounded-2xl shadow-lg">
+            <div className="absolute -bottom-6 -right-6 bg-blue-600 p-6 rounded-2xl shadow-lg">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-900">3+</div>
-                <div className="text-sm text-blue-900 font-medium">Années d'excellence</div>
+                <div className="text-3xl font-bold text-white">100%</div>
+                <div className="text-sm text-white font-medium">Clients satisfaits</div>
               </div>
             </div>
           </div>
@@ -102,8 +104,8 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
               
               return (
                 <div key={index} className="text-center group">
-                  <div className="w-16 h-16 bg-blue-900 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-yellow-400 transition-colors duration-300">
-                    <IconComponent className="w-8 h-8 text-white group-hover:text-blue-900 transition-colors duration-300" />
+                  <div className="w-16 h-16 bg-blue-900 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors duration-300">
+                    <IconComponent className="w-8 h-8 text-white transition-colors duration-300" />
                   </div>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">
                     {value.title}
@@ -162,7 +164,7 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {certifications.map((cert, index) => (
               <div key={index} className="bg-white p-6 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow">
-                <Award className="w-8 h-8 text-yellow-400 mx-auto mb-2" />
+                <Award className="w-8 h-8 text-blue-600 mx-auto mb-2" />
                 <p className="font-semibold text-gray-900">{cert}</p>
               </div>
             ))}

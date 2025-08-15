@@ -64,14 +64,14 @@ const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
   const contactInfo = [
     {
       icon: Phone,
-      title: "Whatsapp",
-      content: "+44 7982 747852",
-      subContent: "Lun-Ven 9h-17h, Sam 9h-13h"
+      title: "Téléphone",
+      content: "+237 699 XX XX XX",
+      subContent: "Lun-Ven 8h-18h, Sam 8h-12h"
     },
     {
       icon: Mail,
       title: "Email",
-      content: "hiramabiff.technomogy@gmail.com",
+      content: "contact@hactech.cm",
       subContent: "Réponse sous 24h"
     },
     {
@@ -83,8 +83,8 @@ const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
     {
       icon: Clock,
       title: "Horaires",
-      content: "Lun-Ven: 9h-17h",
-      subContent: "Sam: 9h-13h"
+      content: "Lun-Ven: 8h-18h",
+      subContent: "Sam: 8h-12h"
     }
   ];
 
@@ -116,7 +116,7 @@ const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
                   
                   return (
                     <div key={index} className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
                         <IconComponent className="w-6 h-6 text-blue-900" />
                       </div>
                       <div>
@@ -139,13 +139,13 @@ const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
               <div className="mt-8 pt-8 border-t border-blue-800">
                 <h4 className="font-semibold mb-4">Suivez-nous</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="w-10 h-10 bg-blue-800 hover:bg-yellow-400 rounded-lg flex items-center justify-center transition-colors duration-200 group">
+                  <a href="#" className="w-10 h-10 bg-blue-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-200 group">
                     <span className="text-white group-hover:text-blue-900 font-semibold">f</span>
                   </a>
-                  <a href="#" className="w-10 h-10 bg-blue-800 hover:bg-yellow-400 rounded-lg flex items-center justify-center transition-colors duration-200 group">
+                  <a href="#" className="w-10 h-10 bg-blue-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-200 group">
                     <span className="text-white group-hover:text-blue-900 font-semibold">in</span>
                   </a>
-                  <a href="#" className="w-10 h-10 bg-blue-800 hover:bg-yellow-400 rounded-lg flex items-center justify-center transition-colors duration-200 group">
+                  <a href="#" className="w-10 h-10 bg-blue-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-200 group">
                     <span className="text-white group-hover:text-blue-900 font-semibold">ig</span>
                   </a>
                 </div>
@@ -256,7 +256,7 @@ const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
                       className={`w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-white transition-all duration-200 ${
                         isSubmitting
                           ? 'bg-gray-400 cursor-not-allowed'
-                          : 'bg-blue-900 hover:bg-blue-800 transform hover:scale-[1.02]'
+                          : 'bg-blue-600 hover:bg-blue-700 transform hover:scale-[1.02]'
                       }`}
                     >
                       {isSubmitting ? (
@@ -314,11 +314,11 @@ const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
                 <div className="space-y-1 text-xs text-gray-500">
                   <div className="flex items-center space-x-1">
                     <Phone className="w-3 h-3" />
-                    <span>+237 693 511 109</span>
+                    <span>+237 699 XX XX XX</span>
                   </div>
                   <div className="flex items-center space-x-1">
                     <Clock className="w-3 h-3" />
-                    <span>Lun-Ven: 9h-17h</span>
+                    <span>Lun-Ven: 8h-18h</span>
                   </div>
                 </div>
               </div>

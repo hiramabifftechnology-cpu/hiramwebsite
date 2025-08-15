@@ -1,5 +1,9 @@
 import React from 'react';
-import { Building, Hammer, PenTool, Layers, Zap, Monitor } from 'lucide-react';
+import { 
+  Building, Hammer, PenTool, Layers, Zap, Monitor, 
+  Waves, Droplets, Bot, Home, Shield, Wifi, Sun, 
+  Wrench, Sparkles, Users 
+} from 'lucide-react';
 import { services } from '../data/services';
 
 const iconMap = {
@@ -9,6 +13,16 @@ const iconMap = {
   Layers,
   Zap,
   Monitor,
+  Waves,
+  Droplets,
+  Bot,
+  Home,
+  Shield,
+  Wifi,
+  Sun,
+  Wrench,
+  Sparkles,
+  Users,
 };
 
 interface ServicesProps {
@@ -31,17 +45,17 @@ const Services: React.FC<ServicesProps> = ({ onNavigate }) => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {services.map((service) => {
             const IconComponent = iconMap[service.icon as keyof typeof iconMap];
             
             return (
               <div
                 key={service.id}
-                className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group"
+                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group"
               >
                 {/* Image */}
-                <div className="relative h-48 overflow-hidden">
+                <div className="relative h-40 overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.title}
@@ -50,17 +64,17 @@ const Services: React.FC<ServicesProps> = ({ onNavigate }) => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                   
                   {/* Icon */}
-                  <div className="absolute top-4 left-4 w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
-                    <IconComponent className="w-6 h-6 text-blue-900" />
+                  <div className="absolute top-4 left-4 w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                    <IconComponent className="w-5 h-5 text-white" />
                   </div>
                 </div>
 
                 {/* Content */}
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-900 transition-colors">
+                <div className="p-4">
+                  <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-900 transition-colors line-clamp-2">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">
                     {service.description}
                   </p>
                 </div>
@@ -80,7 +94,7 @@ const Services: React.FC<ServicesProps> = ({ onNavigate }) => {
             </p>
             <button
               onClick={() => onNavigate('contact')}
-              className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-blue-900 bg-yellow-400 hover:bg-yellow-300 transition-colors duration-200 transform hover:scale-105"
+              className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200 transform hover:scale-105"
             >
               Demander un devis
             </button>
