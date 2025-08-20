@@ -11,7 +11,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="SITE/PORTE/IMG-20250819-WA0000.jpg"
           alt="Construction moderne"
           className="w-full h-full object-cover opacity-20"
         />
