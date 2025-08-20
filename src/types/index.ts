@@ -1,10 +1,12 @@
 export interface Project {
   id: number;
   title: string;
-  category: 'maisons' | 'commercial' | 'renovation';
+  category: 'maisons' | 'commercial' | 'renovation' | 'meublement' | 'decoration-interne' | 'renovation-externe' | 'gros-oeuvre' | 'electrique' | 'informatique' | 'system-intelligent' | 'maintenance';
   image: string;
   description: string;
   year: number;
+  status: 'completed' | 'in-progress';
+  location?: string;
 }
 
 export interface Service {
@@ -12,7 +14,8 @@ export interface Service {
   title: string;
   description: string;
   icon: string;
-  image: string;
+  images: string[];
+  category: string;
 }
 
 export interface TeamMember {
