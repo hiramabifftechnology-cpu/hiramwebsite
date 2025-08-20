@@ -7,7 +7,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Villa Moderne Yaoundé",
     category: "maisons",
-    image: /IMG-20250704-WA0010.jpg?auto=compress&cs=tinysrgb&w=800",
+    image: "/IMG-20250704-WA0010.jpg?auto=compress&cs=tinysrgb&w=800",
     description: "Construction d'une villa contemporaine de 200m² avec piscine et jardin paysager",
     year: 2024,
     status: "completed",
