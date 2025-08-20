@@ -1,4 +1,5 @@
 import { Project } from '../types';
+const images = import.meta.glob("../SITE/*.{jpg,png,jpeg}", { eager: true });
 
 export const projects: Project[] = [
   // MAISONS
